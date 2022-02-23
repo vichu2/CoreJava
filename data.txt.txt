@@ -1,0 +1,6 @@
+STEP 1 :  Open Eclipse  
+STEP 2 :  Adding the packages
+STEP 3 :  Enter the input on run time
+STEP 4 :  Enter the the operator
+STEP 5 :  Add Switch Cases 
+STEP 6 :  Print the output
