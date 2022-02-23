@@ -1,0 +1,19 @@
+package pack1;
+
+public class ProtectedAccessSpecifiers {
+	
+	protected void display()
+	{
+		System.out.println("The protected access specifieres ");
+		
+	}
+}
+
+package pack2;
+import pack1.*;
+	
+public class AccessSpecifiers extends ProtectedAccessSpecifiers{
+	public static void main(String[]args) {
+		AccessSpecifiers obj=new AccessSpecifiers();
+		obj.display();
+	}
