@@ -1,0 +1,26 @@
+package package1;
+
+public class PublicAccessSpecifiers  {
+
+	public void display() 
+    { 
+        System.out.println("This is Public Access Specifiers"); 
+    } 
+
+
+}
+
+package package2;
+import package1.*;
+
+public class AccessSpecifiers1 {
+
+	public static void main(String[] args) {
+		
+		PublicAccessSpecifiers obj = new PublicAccessSpecifiers(); 
+        obj.display();  
+		
+	}
+}
+
+
