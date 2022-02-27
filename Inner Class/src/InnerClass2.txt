@@ -1,0 +1,24 @@
+package com.simplilearn.InnerClasss;
+
+public class InnerClass2 {
+	private String msg="InnerClass";
+	void display() {
+		class Inner{
+			void msg() {
+				System.out.println(msg);
+				
+			}
+		}
+		Inner	i = new Inner();
+		i.msg();
+	}
+	
+
+	public static void main(String[] args) {
+	InnerClass2 ob=new InnerClass2();
+	ob.display();
+	
+
+	}
+
+}z
