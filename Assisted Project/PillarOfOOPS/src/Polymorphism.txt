@@ -1,0 +1,23 @@
+package com.simplilearn.PillarsOfOOPS;
+
+public class Polymorphism {
+	public int sum(int x,int y) {
+		return(x+y);
+			}
+public int sum (int x,int y,int z) {
+	return (x+y+z);
+	
+}
+public double sum(double x,double y) {
+	return(x+y);
+	
+}
+	public static void main(String[] args) {
+	Polymorphism s1=new Polymorphism();
+	
+	System.out.println(s1.sum(5.1, 8.9));
+	System.out.println(s1.sum(10, 8, 12));
+	System.out.println(s1.sum(1, 3));
+	}
+
+}

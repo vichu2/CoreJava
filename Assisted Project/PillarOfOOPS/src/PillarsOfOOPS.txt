@@ -1,0 +1,45 @@
+
+
+package com.simplilearn.PillarsOfOOPS;
+
+public class PillarsOfOOPS {
+	String name;
+	String bread;
+	int age;
+	String color;
+ public PillarsOfOOPS(String name,String bread,int age, String color) {
+	 this.name=name ;
+	 this.bread=bread;
+	 this.age=age;
+	 this.color=color;
+	 
+ }
+	public String getName() {
+		return name;
+		
+	}
+	public String getBread() {
+		return bread;
+		
+	}
+
+	public String getColor() {
+		return color;
+		
+	}
+	public int getAge() {
+		return age;
+		
+	}
+	@Override
+	public String toString () {
+		return("Hi, my name is "+this.getName()+"\n My Bread is "+this.getBread()+ "\n My age is "+this.getAge()+ "\n I am "+this.getColor()+" color");
+	}
+	public static void main(String[] args) {
+		
+	PillarsOfOOPS p = new PillarsOfOOPS("Kumar","Brown",5,"Black");
+	System.out.println(p.toString());
+
+	}
+
+}
