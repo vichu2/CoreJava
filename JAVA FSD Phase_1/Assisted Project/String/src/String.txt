@@ -30,7 +30,7 @@ public class string{
         s.insert(0,"No 1 ");
         System.out.println(s);
         StringBuffer sb=new StringBuffer("Hello");
-        sb.replace(0,2,"he"); //doubt//
+        sb.replace(0,2,"he"); 
         System.out.println(sb);
         sb.delete(0, 2);
         System.out.println(sb);
