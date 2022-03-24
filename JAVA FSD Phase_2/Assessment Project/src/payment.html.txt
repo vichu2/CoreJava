@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Payment Confirmation</title>
+
+</head>
+<body>
+
+<h1> Booking Confirmation</h1>
+<form action="payment.jsp" method="post">
+		<fieldset>
+			<legend>Booking Confirmation</legend>
+		 <br>"Payment done and booking confirmed" <br />
+		 <br>"PNR X12JI4"<br/>
+		 <br>" Thank you for choosing Online Booking Management System"<br /> 
+		 
+</fieldset>
+</form>
+</body>
+</html>

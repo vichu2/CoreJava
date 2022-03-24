@@ -1,0 +1,33 @@
+<%@page import="com.simplilearn.dao.FlightDao"%>
+<%@page import="com.simplilearn.entity.Information"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Handle Submit Form</title>
+</head>
+<body>
+
+<%
+	String src = request.getParameter("src");
+	String dest = request.getParameter("dest");
+String doj= request.getParameter("doj");
+	
+	String pax= request.getParameter("pax");
+	
+Information i = new Information ();
+	i.setSrc(src);
+	i.setDest(dest);
+	i.setDoj(doj);
+	i.setPax(pax);
+	
+	FlightDao.addInformation(i);
+	
+	response.sendRedirect("success.jsp");
+			
+%>
+
+</body>
+</html>
