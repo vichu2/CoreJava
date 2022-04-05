@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bootstrap_Assignment</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+<div class="container">
+    <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-9 col-xl-7">
+          <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+            <div class="card-body p-4 p-md-5">
+              <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Sign Up (Form Validation)</h3>
+              <form>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+    
+                      <div class="form-outline">
+                        <input type="text" id="firstName" class="form-control form-control-md" />
+                        <label class="form-label" for="firstName">First Name</label>
+                      </div>
+    
+                    </div>
+                    <div class="col-md-4 mb-4">
+    
+                        <div class="form-outline">
+                          <input type="text" id="firstName" class="form-control form-control-md" />
+                          <label class="form-label" for="firstName">Middle Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+    
+                      <div class="form-outline">
+                        <input type="text" id="lastName" class="form-control form-control-md" />
+                        <label class="form-label" for="lastName">Last Name</label>
+                      </div>
+                    </div>
+                    <div class="col-md-10 mb-10">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                    </div>
+                    </div>
+                    
+            <div>
+                <label class="text">Password</label>
+                <div class="form-group mx-sm-6 mb-6">
+                <label for="inputPassword2" class="sr-only">Password</label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                </div>
+                <label class="text">Confirm Password</label>
+                <div class="form-group mx-sm-6 mb-6">
+                <label for="confirmpassword" class="sr-only">Confirm Password</label>
+                <input type="password" class="form-control" id="confirmpassword" placeholder="Confirm Password">
+                </div>
+            </div>
+            <div class="row align-items-center py-3">
+                <div class="col-md-6 mb-6">
+                <div class="form-group">
+                <label for="exampleFormControlInput1">Age</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Age">
+                </div>
+                </div>
+                </div>
+                    <div>
+                        <label class="text">City</label>
+                        <div class="col-md-6 mb-4">
+
+                            <select class="select">
+                              <option value="1">Select</option>
+                              <option value="2">Visakhapatnam</option>
+                              <option value="3">Bangalore</option>
+                              <option value="4">Hyderabad</option>
+                              <option value="5">Mumbai</option>
+                              <option value="6">Delhi</option>
+                              <option value="7">Thane</option>
+                            </select>
+        
+                          </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect2">Hobbies</label>
+                            <select multiple class="form-control" id="exampleFormControlSelect2">
+                              <option>Reading</option>
+                              <option>Playing</option>
+                              <option>Watching TV</option>
+                              <option>Listening</option>
+                              <option>Travelling</option>
+                            </select>
+                          </div>
+                          <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+
+                            <h6 class="mb-0 me-4">Gender: </h6>
+          
+                            <div class="form-check form-check-inline mb-0 me-4">
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="inlineRadioOptions"
+                                id="maleGender"
+                                value="option1"
+                              />
+                              <label class="form-check-label" for="maleGender">Male</label>
+                            </div>
+          
+                            <div class="form-check form-check-inline mb-0 me-4">
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="inlineRadioOptions"
+                                id="femaleGender"
+                                value="option2"
+                              />
+                              <label class="form-check-label" for="femaleGender">Female</label>
+                            </div>
+          
+                            <div class="form-check form-check-inline mb-0">
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="inlineRadioOptions"
+                                id="otherGender"
+                                value="option3"
+                              />
+                              <label class="form-check-label" for="otherGender">Other</label>
+                            </div>
+          
+                          </div>
+                          <div class="row align-items-center py-3">
+                            <div class="col-md-3 ps-5">
+              
+                              <h6 class="mb-0">Profile Description</h6>
+              
+                            </div>
+                            <div class="col-md-9 pe-5">
+              
+                              <textarea class="form-control" rows="3" placeholder="Profile Descriptions"></textarea>
+              
+                            </div>
+                          </div>
+                          <div class="row align-items-center py-3">
+                            <div class="col-md-3 ps-5">
+              
+                              <h6 class="mb-0">Upload Pic</h6>
+              
+                            </div>
+                            <div class="col-md-9 pe-5">
+              
+                              <input class="form-control form-control-md" id="formFileLg" type="file" />
+                              <div class="small text-muted mt-2">Max file size 50 MB</div>
+              
+                            </div>
+                          </div>
+                          <div class="row align-items-center py-3">
+                          <div class="px-5 py-4">
+                            
+                            <a href="DashboardPage.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Submit</a>
+                          </div>
+                        </div>
+                      
+                    </div>
+    
+                
+</div>
+<br><br>

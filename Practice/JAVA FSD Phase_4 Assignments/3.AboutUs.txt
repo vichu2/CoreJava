@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bootstrap_Assignment</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <div class="container-fluid">
+    <p></p>I still remember the scariest part of my school exams.</p>
+
+    <p></p>We’d always get a least one totally random topic to write about in English.</p>
+    
+    <p></p>Talk about terrifying!</p>
+    
+    <p></p>I was worried that one day I’d get a topic that I wouldn’t have any idea how to write about. What if I couldn’t find the right words in English? What if I couldn’t organize my thoughts clearly?
+    
+    <p></p>In short, I had no clue how to write a good essay in English.</p>
+    
+    <p></p>Fast forward to the future, where I’m a professional writer.</p>
+    
+    <p></p>Now my job involves being able to write about anything under the sun with absolute ease.</p>
+    
+    <p></p>You might be wondering how I did that.</p>
+    
+    <p></p>How did I, a non-native speaker of English, master the skills needed for English essay writing?</p>
+    
+    <p></p>And how can English learning professionals have the same success for their business English essays?</p>
+    
+    <p></p>Well, in this post I’ll show you how you can write a great essay in business English by following eight practical steps.</p>
+    
+    <p></p>Get a convenient and portable copy of this blog post</p>
+    
+    <p></p>Download Free Ebook</p>
+    <p></p>Why Is Business Essay Writing so Important?</p>
+    <p></p>Let me first tell you why it’s absolutely crucial to cultivate your business writing skills.</p>
+    
+    <p></p>Communicate critically and logically: To write a strong essay, you’ll need to process any piece of information and logically argue your views on it. Both of these skills are much valued in the workplace and will come in handy in a number of real-life assignments.
+    <p></p>Become more persuasive: Most business essays are persuasive in nature. To write a strong essay, you’ll need to use facts and logic to convince readers of your views.
+    <p></p>Developing this skill will be important outside of just essay writing. Working or owning a business involves a fair amount of persuasion, negotiation and diplomacy. You must be able to make others see and appreciate your point of view. It’s also an important leadership skill and will aid you in climbing the corporate ladder.
+    
+    <p></p>Gain acceptance to business degree programs: If you plan to apply for business programs at English-speaking universities, an essay in business English will be an essential part of your application.
+    <p></p>Be more articulate: You’ll learn how to express yourself clearly and effectively, which will improve all aspects of your business communication.
+    <p></p>The key to writing a superb business English essay is to know the vocabulary you have to use, and FluentU is the only tool you need for that.</p>
+    
+    <p></p>FluentU takes authentic videos—like music videos, movie trailers, news and inspiring talks—and turns them into personalized language learning lessons.</p>
+    
+    <p></p>You can try FluentU for free for 2 weeks. Click here to check out the website or download the iOS app or Android app.
+ </div></p>
