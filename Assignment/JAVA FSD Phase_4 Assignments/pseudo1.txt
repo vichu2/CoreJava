@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:hover{
+   padding: 3%;
+   font-size:1.4em;
+   color: tomato;
+   background: bisque;
+}
+</style>
+</head>
+<body>
+<p>You're somebody else</p>
+<a href=#>Dummy link 1</a>
+<a href=#>Dummy link 2</a>
+</body>
+</html>
