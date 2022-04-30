@@ -1,0 +1,53 @@
+package seleniumproject1;
+
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByClassName;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+
+public class TestAnnotation {
+WebDriver driver;
+    
+    @BeforeClass
+    public void openBrowser()
+    {
+        driver = new ChromeDriver();
+        
+        driver.manage().window().maximize();
+        
+        driver.manage().deleteAllCookies();
+        
+        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+        
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        
+        driver.get("https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Login");
+        
+    }
+  
+    
+    @Test(priority='1')
+    public void registration() 
+    {
+      	driver.findElement(By.xpath("//button[@class='mw-htmlform-submit mw-ui-button mw-ui-primary mw-ui-progressive']")).click();
+        driver.findElement(By.xpath("//li[@id='pt-createaccount']")).click();
+        driver.findElement(By.xpath("//input[@id='wpName2']")).sendKeys("simplilearn1");
+        driver.findElement(By.xpath("//input[@id='wpPassword2']")).sendKeys("password@123");
+        driver.findElement(By.xpath("//input[@id='wpRetype']")).sendKeys("password@123");
+        driver.findElement(By.xpath("//input[@id='wpEmail']")).sendKeys("Unluckyboy.031@gmail.com");
+        driver.findElement(By.xpath("//input[@id='mw-input-captchaWord']")).sendKeys("cellostyes");
+        driver.navigate().to("https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Login");
+        driver.findElement(By.xpath("//input[@class='loginText mw-ui-input']")).sendKeys("simplilearn1");
+        driver.findElement(By.xpath("//input[@class='loginPassword mw-ui-input']")).sendKeys("password@123");
+        driver.findElement(By.xpath("//button[@class='mw-htmlform-submit mw-ui-button mw-ui-primary mw-ui-progressive']")).click();
+         
+    }
+	
+}

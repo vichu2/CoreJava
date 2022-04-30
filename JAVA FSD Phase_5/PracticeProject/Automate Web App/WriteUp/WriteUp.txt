@@ -1,0 +1,5 @@
+STEP - 1 : Open eclipse, add the dependency for the selenium project
+STEP - 2 : Add ChromeDriver also in the file
+STEP - 3 : Under Src/test/java create a object for driver. With that Driver, automate the web app using Xpath, id
+STEP - 4 : Download the TestNG in Eclipse, Run on TestNG
+Step - 5 : After successfull test run, check test output you can see the emailable report and html report

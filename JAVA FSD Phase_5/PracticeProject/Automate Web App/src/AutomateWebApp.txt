@@ -1,0 +1,71 @@
+package seleniumproject1;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+
+public class AutomateWebApp {
+WebDriver driver;
+    
+    @BeforeClass
+    public void openBrowser()
+    {
+        driver = new ChromeDriver();
+        
+        driver.manage().window().maximize();
+        
+        
+        driver.get("https://www.levi.in/login");
+        
+    }
+    @Test(priority='1')
+    public void registration() throws InterruptedException
+    {
+    	
+        
+        driver.findElement(By.xpath("(//input[@class='input-text email required'])[2]")).sendKeys("usena222@gmail.com");
+        driver.findElement(By.xpath("//input[@id='dwfrm_profile_customer_phone']")).sendKeys("1234567890");
+        
+        driver.findElement(By.xpath("(//input[@class='input-text password required'])[2]")).sendKeys("Password@123");
+        
+        driver.findElement(By.xpath("//button[@name='dwfrm_login_register']")).click();
+        Thread.sleep(1000);
+       
+    }
+    @Test(priority='2')
+    public void searchbar() throws InterruptedException
+    {
+    	
+        driver.findElement(By.xpath("(//input[@name='q'])[2]")).sendKeys("Jeans");
+        
+        driver.findElement(By.xpath("(//button[@type='submit'])[2]")).click();
+        Thread.sleep(1000);
+    }
+    @Test(priority='3')
+    public void AddCart() throws InterruptedException
+    {
+    	driver.findElement(By.xpath("//input[@class='input-text email required'])[1]")).sendKeys("usena222@gmail.com");
+    	driver.findElement(By.xpath("(//input[@class='input-text password required'])[1]")).sendKeys("Password@123");
+        driver.findElement(By.xpath("(//a[@data-event='event-data-PDS-link'])[1]")).click();
+        driver.findElement(By.xpath("(//a[@title='Select Waist: 28'])[1]")).click();
+        driver.findElement(By.xpath("//input[@id='dwfrm_singleshipping_inStoreShipments_pinCode']")).sendKeys("400001");
+        Thread.sleep(1000);
+       
+    }
+    @Test(priority='4')
+    public void logout () throws InterruptedException
+    {
+    	
+        driver.findElement(By.xpath("//button[@id='add-to-cart']")).click();
+        driver.close();
+        
+       
+    }
+    
+}
